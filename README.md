@@ -1,4 +1,4 @@
-👋 About Me
+👋 Hey i am Aalok Tomer
 
 A BCA graduate with a passion for ethical hacking and cybersecurity,
 currently exploring penetration testing and red team operations. 
