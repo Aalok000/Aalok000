@@ -1,31 +1,14 @@
-- 👋 Hi, I’m @Aalok000
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+👋 About Me
+A BCA graduate with a passion for ethical hacking and cybersecurity, currently exploring penetration testing and red team operations. I thrive on identifying vulnerabilities and contributing to robust security frameworks.
 
-public class MajorityElement {
-    public static int findMajorityElement(int[] nums) {
-        int n = nums.length;
-        Map<Integer, Integer> frequencyMap = new HashMap<>();
+Alongside cybersecurity, I have dabbled in data science (AI/ML), web development (React.js, Node.js), and blockchain technologies. I hold certifications from IIT Delhi and IIT Kanpur and have gained practical experience as a cybersecurity intern at Employment Express Verband LLP.
 
-        for (int num : nums) {
-            frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
-            if (frequencyMap.get(num) > n / 2) {
-                return num;
-            }
-        }
+I’ve participated in and achieved distinctions in several competitions, including Hackathon 2K24 and MUN 2K22. Always eager to learn, I strive to grow through collaborative projects and open-source contributions.
 
-        return -1; // No majority element found
-    }
+💼 Key Interests:
 
-    public static void main(String[] args) {
-        int[] arr1 = {1, 2, 2, 2, 3};
-        int majority1 = findMajorityElement(arr1);
-        System.out.println("Majority element: " + majority1); // Output: 2
-
-        int[] arr2 = {1, 2, 3, 4, 5};
-        int majority2 = findMajorityElement(arr2);
-        System.out.println("Majority element: " + majority2); // Output: -1
-    }
-}
+Cybersecurity & Penetration Testing
+Red Team Operations
+Quantum Computing & Blockchain
+📫 Let's Connect:
+Feel free to explore my repositories and collaborate!
